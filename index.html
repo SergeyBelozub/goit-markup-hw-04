@@ -19,24 +19,23 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
-
+  <!--Top header  -->
   <body>
-    <!--Top header  -->
     <header class="header">
       <div class="container">
         <div class="container-nav">
-          <a class="logo" href="../"
+          <a class="logo" href="./"
             >Web<span class="logo-studio">Studio</span></a
           >
           <nav class="navigation">
             <ul class="style-nav">
-              <li class="header-item portfolio">
-                <a href="../index.html" class="studio link">Студия</a>
-              </li>
               <li class="header-item studio">
-                <a href="../portfolio/portfolio.html" class="link">Портфолио</a>
+                <a href="" class="studio link">Студия</a>
+              </li>
+              <li class="header-item portfolio">
+                <a href="./portfolio/portfolio.html" class="link">Портфолио</a>
               </li>
               <li class="contact"><a href="" class="link">Контакты</a></li>
             </ul>
@@ -52,148 +51,117 @@
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      
+      </div>
     </header>
     <!-- main section -->
     <main>
       <!-- button -->
-      <h1 class="visually-hidden">Скрытый текст</h1>
+      <section class="hero">
+        <div class="container">
+          <h1 lang="ru" class="hero-title">
+            эффективное решение для вашего бизнеса
+          </h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
+      </section>
+
+      <!-- content text -->
       <section class="section">
         <div class="container">
-          <ul class="portfolio-title">
-            <li class="portfolio-list">
-              <button type="button" class="sections-btn praymeri-btn">Все</button>
+          <h2 class="visually-hidden">Скрытый тектс</h2>
+          <ul class="content-text">
+            <li class="text">
+              <h3 class="text-title">Внимание к деталям</h3>
+              <p class="subtitle">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
             </li>
-            <li class="portfolio-list">
-              <button type="button" class="sections-btn button">
-                Веб-сайты
-              </button>
+            <li class="text">
+              <h3 class="text-title">Пунктуальность</h3>
+              <p class="subtitle">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
             </li>
-            <li class="portfolio-list">
-              <button type="button" class="sections-btn button">
-                Приложения
-              </button>
+            <li class="text">
+              <h3 class="text-title">Планирование</h3>
+              <p class="subtitle">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
             </li>
-            <li class="portfolio-list">
-              <button type="button" class="sections-btn button">Дизайн</button>
-            </li>
-            <li class="portfolio-list">
-              <button type="button" class="sections-btn button">
-                Маркетинг
-              </button>
+            <li class="text">
+              <h3 class="text-title">Современные технологии</h3>
+              <p class="subtitle">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
             </li>
           </ul>
-        
-      
-        <!-- content portfolio -->
-        
-          <ul class="portfolio-item">
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img-min.jpg"
-                  alt="ноутбук технокряк"
-                  width="370"
-                />
-                <div class="down-img-portdolio">
-                <h3 class="prtf-first">Технокряк</h3>
-                <p class="prtf-second" lang="en">Веб-сайт</p></div>
-              </a>
+        </div>
+      </section>
+      <!--content-picture-->
+      <section class="section">
+        <div class="container">
+          <h2 class="content-subject">Чем мы занимаемся</h2>
+          <ul class="content-item">
+            <li class="content-subitem">
+              <img src="./images/box1.jpg" alt="работает на пк" width="370" />
             </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img2-min.jpg"
-                  alt="басткетболисты"
-                  width="370"
-                />
-                <div class="down-img-portdolio">
-                <h3 class="prtf-first">Постер New Orlean vs Golden Star</h3>
-                <p class="prtf-second" lang="en">Дизайн</p></div>
-              </a>
+            <li class="content-subitem">
+              <img
+                src="./images/box2.jpg"
+                alt="тестирует моб.приложения"
+                width="370"
+              />
             </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img3-min.jpg"
-                  alt="логотип ресторана"
-                  width="370"
-                />
-                <div class="down-img-portdolio">
-                <h3 class="prtf-first">Ресторан Seafood</h3>
-                <p class="prtf-second" lang="en">Приложение</p></div>
-              </a>
+            <li class="content-subitem">
+              <img
+                src="./images/box3.jpg"
+                alt="работает с палитрой цветов"
+                width="370"
+              />
             </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img4-min.jpg"
-                  alt="наушники"
-                  width="370"
-                />
-                <div class="down-img-portdolio">
-                <h3 class="prtf-first">Проект Prime</h3>
-                <p class="prtf-second" lang="en">Маркетинг</p></div>
-              </a>
-            </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img5-min.jpg"
-                  alt="коробки"
-                  width="370"
-                /><div class="down-img-portdolio">
-                <h3 class="prtf-first">Проект Boxes</h3>
-                <p class="prtf-second" lang="en">Приложение</p></div>
-              </a>
-            </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img6-min.jpg"
-                  alt="макбук с приложением"
-                  width="370"
-                /><div class="down-img-portdolio">
-                <h3 class="prtf-first">Inspiration has no Borders</h3>
-                <p class="prtf-second" lang="en">Веб-сайт</p></div>
-              </a>
-            </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img7-min.jpg"
-                  alt="книга"
-                  width="370"
-                /><div class="down-img-portdolio">
-                <h3 class="prtf-first">Издание Limited Edition</h3>
-                <p class="prtf-second" lang="en">Дизайн</p></div>
-              </a>
-            </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img8-min.jpg"
-                  alt="визитка лаб"
-                  width="370"
-                /><div class="down-img-portdolio">
-                <h3 class="prtf-first">Проект LAB</h3>
-                <p class="prtf-second" lang="en">Маркетинг</p></div>
-              </a>
-            </li>
-            <li class="porfolio-subtitle">
-              <a href="">
-                <img
-                  src="../portfolio-img/img9-min.jpg"
-                  alt="приложение на ноутбуке"
-                  width="370"
-                /><div class="down-img-portdolio">
-                <h3 class="prtf-first">Growing Business</h3>
-                <p class="prtf-second" lang="en">Приложение</p></div>
-              </a>
-            </li>
-            
           </ul>
-       </div>
+        </div>
+      </section>
+
+      <!-- content-team -->
+      <section class="section">
+        <div class="container">
+          <h2 class="my-team">Наша команда</h2>
+          <ul class="team-item">
+            <li class="work-title">
+              <img src="./images/img.jpg" alt="brown shirt" width="270" />
+              <div class="conteiner-team">
+                <h3 class="name-team">Игорь Демьяненко</h3>
+                <p class="position-team" lang="en">Product Designer</p>
+              </div>
+            </li>
+            <li class="work-title">
+              <img src="./images/img1.jpg" alt="black jacket" width="270" />
+              <div class="conteiner-team">
+                <h3 class="name-team">Ольга Репина</h3>
+                <p class="position-team" lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="work-title">
+              <img src="./images/img2.jpg" alt="blue shirt" width="270" />
+              <div class="conteiner-team">
+                <h3 class="name-team">Николай Тарасов</h3>
+                <p class="position-team" lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="work-title">
+              <img src="./images/img3.jpg" alt="black T-shirt" width="270" />
+              <div class="conteiner-team">
+                <h3 class="name-team">Михаил Ермаков</h3>
+                <p class="position-team" lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->

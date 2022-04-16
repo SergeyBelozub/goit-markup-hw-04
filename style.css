@@ -314,7 +314,7 @@ img {
 }
 /* content portfolio */
 .portfolio-item {
-  margin-top: var(--fitst-text-ind);
+  margin-top: 34px;
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(var(--item-item-ind) * -1);
