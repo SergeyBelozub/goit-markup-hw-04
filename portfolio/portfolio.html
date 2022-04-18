@@ -24,36 +24,41 @@
 
   <body>
     <!--Top header  -->
-    <header class="header">
-      <div class="container">
-        <div class="container-nav">
-          <a class="logo" href="../"
-            >Web<span class="logo-studio">Studio</span></a
-          >
-          <nav class="navigation">
-            <ul class="style-nav">
-              <li class="header-item portfolio">
-                <a href="../index.html" class="studio link">Студия</a>
-              </li>
-              <li class="header-item studio">
-                <a href="../portfolio/portfolio.html" class="link">Портфолио</a>
-              </li>
-              <li class="contact"><a href="" class="link">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <ul class="style-contact">
-          <li class="header-item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
+    <body>
+      <header class="header">
+        <div class="container">
+          <div class="container-nav">
+            <a class="logo" href="../index.html"
+              >Web<span class="logo-studio">Studio</span></a
             >
-          </li>
-          <li class="header-item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      
-    </header>
+            <nav class="navigation">
+              <ul class="style-nav">
+                <li class="header-item studio">
+                  <a href="../index.html" class="link">Студия</a>
+                </li>
+                <li class="header-item portfolio">
+                  <a href="./portfolio.html" class="studio link">Портфолио</a>
+                </li>
+                <li class="contact"><a href="" class="link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <ul class="style-contact">
+            <li class="header-item">
+              <a href="mailto:info@devstudio.com" class="link"><svg class="nav-icon-sublink" width="16" height="12">
+                <use href="../images/icon/symbol-defs.svg#icon-imaile"></use>
+              </svg>
+                info@devstudio.com</a>
+            </li>
+            <li class="header-item">
+              
+              <a href="tel:+380961111111" class="link"><svg class="nav-icon-sublink" width="12" height="16">
+                <use href="../images/icon/symbol-defs.svg#icon-mobil"></use>
+              </svg>+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </header>
     <!-- main section -->
     <main>
       <!-- button -->
@@ -198,12 +203,14 @@
     </main>
     <!-- Footer -->
     <footer class="footer-bg">
-      <div class="container">
-        <a class="logo" href="./"
+      <div class="container footer">
+        <div class="conteiner-footer-adress">
+        <address class="contact-adress">
+        <a class="logo logo-down" href="./"
           >Web<span class="logo-studio down">Studio</span></a
         >
 
-        <address class="contact-adress">
+        
           <ul class="contant-list">
             <li class="contact-item">
               <a
@@ -233,8 +240,52 @@
               >
             </li>
           </ul>
+        </div>
         </address>
+        <div class="social">
+          <h2 class="social-title">присоединяйтесь</h2>
+          <ul class="social-link">
+            <ul class="team-icon-item">
+              <li class="team-icon-list">
+                <a href="" class="team-icon-link social-icon-link">
+                  <svg class="team-icon-sublink" width="20" height="20">
+                    <use
+                      href="../images/icon/symbol-defs.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icon-list">
+                <a href="" class="team-icon-link social-icon-link">
+                  <svg class="team-icon-sublink social-icon-sublink" width="20" height="20">
+                    <use
+                      href="../images/icon/symbol-defs.svg#icon-twitter1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icon-list">
+                <a href="" class="team-icon-link social-icon-link">
+                  <svg class="team-icon-sublink social-icon-sublink" width="20" height="20">
+                    <use
+                      href="../images/icon/symbol-defs.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-icon-list">
+                <a href="" class="team-icon-link social-icon-link">
+                  <svg class="team-icon-sublink social-icon-sublink" width="20" height="20">
+                    <use
+                      href="../images/icon/symbol-defs.svg#icon-linkedin2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+          </ul>
+        </div>
       </div>
+      
     </footer>
   </body>
 </html>
